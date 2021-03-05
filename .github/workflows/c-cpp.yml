@@ -18,4 +18,4 @@ jobs:
     - name: change to bin dir
       run: cd bin
     - name: test freetype
-      run: sh auto_build_freetype.sh
+      run: sh ./build/auto_build_freetype.sh
