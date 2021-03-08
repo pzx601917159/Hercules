@@ -59,7 +59,7 @@ fi
 echo "build boost"
 cd boost
 ./bootstrap.sh
-#./b2 install
+./b2 install
 
 echo "copy header and lib ..."
 cd $home
