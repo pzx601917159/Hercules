@@ -13,9 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: create bin dir
-      run: mkdir bin
-    - name: change to bin dir
-      run: cd bin
-    - name: test freetype
-      run: sh ./build/auto_build_freetype.sh
+    - name: test
+      run: mkdir bin;cd bin;sh ./build/auto_build_freetype.sh
